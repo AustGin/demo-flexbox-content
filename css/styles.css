@@ -36,3 +36,15 @@ li {
 .f {
     background-color: #9370db;
 }
+
+.flex {
+   /*  flexbox responds to the content and their width first, and then it distributes the left over space */
+    display: flex;
+
+    /* The justify content property allows us to distribute the leftover space on the main axis.Flex start is the default value */
+    justify-content: center;
+/* 
+    The align items allows distribution of space on the cross axis. The tallest item defines the height of the whole row, and all other items stewch to fit. Therefor the default value is stretched */
+    align-items: center;
+    
+}
